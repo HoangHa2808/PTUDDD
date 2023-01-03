@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Face Emoji</string>
+    <string name="btn_random">RanDom</string>
+    <string-array name="arr_face">
+        <item>angry</item>
+        <item>beauty</item>
+        <item>haha</item>
+        <item>byebye</item>
+        <item>embarrassed</item>
+        <item>boss</item>
+        <item>misdoubt</item>
+        <item>choler</item>
+        <item>ops</item>
+        <item>pudency</item>
+        <item>surrender</item>
+        <item>tire</item>
+    </string-array>
+</resources>

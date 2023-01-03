@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Intents</string>
+    <string name="view">Nhap thong tin</string>
+    <string name="otherActivity">New Activity</string>
+    <string name="btnSearch">Search</string>
+    <string name="btnCallPhone">Call</string>
+    <string name="btnSMS">SMS</string>
+    <string name="btnMusic">Music</string>
+    <string name="btnContacts">Contacts</string>
+    <string name="btnSetting">Setting</string>
+</resources>

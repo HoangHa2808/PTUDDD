@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/txtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/view" />
+
+    <EditText
+        android:id="@+id/txtInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_below="@+id/txtView"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnNewActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/otherActivity"
+        android:layout_below="@+id/txtInput" />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnNewActivity"
+        android:text="@string/btnSearch" />
+
+    <Button
+        android:id="@+id/btnCallPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSearch"
+        android:text="@string/btnCallPhone" />
+
+    <Button
+        android:id="@+id/btnSMS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnCallPhone"
+        android:text="@string/btnSMS" />
+
+    <Button
+        android:id="@+id/btnMusic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSMS"
+        android:text="@string/btnMusic" />
+
+    <Button
+        android:id="@+id/btnContacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnMusic"
+        android:text="@string/btnContacts" />
+
+    <Button
+        android:id="@+id/btnSetting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnContacts"
+        android:text="Button" />
+
+    <!--  -->
+</RelativeLayout>

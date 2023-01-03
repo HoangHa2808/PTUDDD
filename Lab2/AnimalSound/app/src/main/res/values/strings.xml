@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Animal Sound</string>
+    <string name="txt_loading">Loading...</string>
+    <string name="name">Staff</string>
+    <string name="txt_name">Ali Connors</string>
+    <string name="txt_phone1">(84)848543858</string>
+    <string name="txt_title_mobile">Mobile</string>
+    <string name="txt_phone2">(84)792646101</string>
+    <string name="txt_email">summer1@example.com</string>
+</resources>

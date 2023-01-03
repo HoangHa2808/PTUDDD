@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Multi Language App</string>
+    <string name="txt_app">Hello</string>
+    <string name="edit_email">Email Address</string>
+    <string name="edit_password">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="txt_query">Do not have account?. </string>
+    <string name="btn_signup">Sign Up</string>
+</resources>
